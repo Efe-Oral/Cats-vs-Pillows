@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b01aeac469b0543b554f706c6b8c7a, type: 3}
+  m_Name: Room_Midnight
+  m_EditorClassIdentifier: 
+  wallMaterial: {fileID: 2100000, guid: e8ebd8180720a0345989c755e90e93e4, type: 2}
+  floorMaterial: {fileID: 2100000, guid: 68b478cd437853e478d7458931aa5337, type: 2}
+  fallbackPlatformMaterial: {fileID: 2100000, guid: 6b2b60d325058074c8ab501eda3cf02d,
+    type: 2}

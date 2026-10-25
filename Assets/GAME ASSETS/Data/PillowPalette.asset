@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d525245bb14b665499ac80849f4ce52e, type: 3}
+  m_Name: PillowPalette
+  m_EditorClassIdentifier: 
+  entries:
+  - color: 0
+    material: {fileID: 2100000, guid: bdae8b4694e0cd644889b2936eeef39a, type: 2}
+    uiColor: {r: 1, g: 0.36862746, b: 0.35686275, a: 1}
+  - color: 1
+    material: {fileID: 2100000, guid: 0f974e750c7ab8a43be3e41f10d39576, type: 2}
+    uiColor: {r: 0.24705882, g: 0.654902, b: 1, a: 1}
+  - color: 2
+    material: {fileID: 2100000, guid: 455fe6d7c07c82645b88fbac5167ebee, type: 2}
+    uiColor: {r: 1, g: 0.8117647, b: 0.22745098, a: 1}
+  - color: 3
+    material: {fileID: 2100000, guid: 49062858104c40a4693dc4063fba05ca, type: 2}
+    uiColor: {r: 0.29803923, g: 0.8156863, b: 0.49019608, a: 1}
+  - color: 4
+    material: {fileID: 2100000, guid: 392cf5f8f8373f24e9a197e196c503ab, type: 2}
+    uiColor: {r: 0.65882355, g: 0.41960785, b: 1, a: 1}

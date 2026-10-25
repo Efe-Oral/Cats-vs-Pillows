@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f00f52d00b99547980d93e2f0456a3, type: 3}
+  m_Name: Level05_MidnightZoomies
+  m_EditorClassIdentifier: 
+  displayName: Midnight Zoomies
+  description: Kitty has the zoomies! Fast pace, tiny tables and only three colors.
+  difficulty: 5
+  roomTheme: {fileID: 11400000, guid: 1abc040ce4c5e024caa77e5b1a7e4cb2, type: 2}
+  atmosphere: {fileID: 11400000, guid: d919588df9c93704a9c81aa94f980d8f, type: 2}
+  catWalkSpeed: 0.85
+  colors: 000000000100000003000000
+  visibleQueueCount: 2
+  randomSeed: 0
+  startPlatform:
+    length: 4
+    furniture: {fileID: 4532068930989807466, guid: 48e72f2bee3be4f46bcdb830396654d3,
+      type: 3}
+    hueShift: 0.55
+  segments:
+  - prePlacedPillows: []
+    platformAfterGap:
+      length: 3.5
+      furniture: {fileID: 2365577610374805147, guid: cc83f18515fa6544992e7f050510c5e4,
+        type: 3}
+      hueShift: 0
+  - prePlacedPillows:
+    - slot: 1
+      color: 3
+    platformAfterGap:
+      length: 3
+      furniture: {fileID: 4484947545465666163, guid: 440f261121b7d684aa8a225752c72d3e,
+        type: 3}
+      hueShift: 0.3
+  - prePlacedPillows:
+    - slot: 0
+      color: 0
+    - slot: 3
+      color: 1
+    platformAfterGap:
+      length: 3.5
+      furniture: {fileID: 1383007128882708555, guid: 678bafb344c7d834a9c5c07735b1d7a0,
+        type: 3}
+      hueShift: -0.3
+  - prePlacedPillows: []
+    platformAfterGap:
+      length: 3
+      furniture: {fileID: 203720986700967546, guid: 94b03d6e8f0a7a3469424b7f0ad68357,
+        type: 3}
+      hueShift: 0.12
+  - prePlacedPillows:
+    - slot: 2
+      color: 3
+    platformAfterGap:
+      length: 3.5
+      furniture: {fileID: 8180459787196399639, guid: fe22164e25efd284eb86b57a032d9c50,
+        type: 3}
+      hueShift: -0.4
+  - prePlacedPillows:
+    - slot: 1
+      color: 1
+    - slot: 3
+      color: 1
+    platformAfterGap:
+      length: 3
+      furniture: {fileID: 5561601814122930026, guid: 343f12d4a49d97240b7972ec2aa3784d,
+        type: 3}
+      hueShift: -0.15
+  - prePlacedPillows: []
+    platformAfterGap:
+      length: 3.5
+      furniture: {fileID: 5914605485070678643, guid: 3f22ef9c3a353ba4db0e2374df6e372d,
+        type: 3}
+      hueShift: 0.45
+  - prePlacedPillows:
+    - slot: 0
+      color: 3
+    platformAfterGap:
+      length: 3
+      furniture: {fileID: 5763087755312010830, guid: 662d8de8ed905be40afdc8b5ad85915b,
+        type: 3}
+      hueShift: -0.4
+  - prePlacedPillows:
+    - slot: 2
+      color: 0
+    platformAfterGap:
+      length: 4.5
+      furniture: {fileID: 5914605485070678643, guid: 3f22ef9c3a353ba4db0e2374df6e372d,
+        type: 3}
+      hueShift: 0
+  decor:
+  - prefab: {fileID: 1677539219903222026, guid: c7f39adc5c1e646448ce0285f2eb7879,
+      type: 3}
+    position: {x: -3.5, y: 0, z: 3.2}
+    yRotation: 180
+    scale: 8
+  - prefab: {fileID: 1116057304501967320, guid: 48ff92604c4cbba4da97373fafea525f,
+      type: 3}
+    position: {x: 2.6, y: 1.8, z: 0.6}
+    yRotation: 180
+    scale: 6
+  - prefab: {fileID: 4825191075397291378, guid: d16fbe48364577c41bebc3a2c5528390,
+      type: 3}
+    position: {x: 6.95, y: 4.2, z: 3.75}
+    yRotation: 180
+    scale: 11
+  - prefab: {fileID: 4320196896449263802, guid: e7354d579d419e74e8666273f63a7dd9,
+      type: 3}
+    position: {x: 11.4, y: 0, z: 2.8}
+    yRotation: 180
+    scale: 10
+  - prefab: {fileID: 1116057304501967320, guid: 48ff92604c4cbba4da97373fafea525f,
+      type: 3}
+    position: {x: 15.849999, y: 1.8, z: 0.55}
+    yRotation: 180
+    scale: 6
+  - prefab: {fileID: 2326842370440741754, guid: 3e5219dae887d304abbfd7ebf8546874,
+      type: 3}
+    position: {x: 20.3, y: 4.2, z: 3.7}
+    yRotation: 180
+    scale: 10
+  - prefab: {fileID: 1250258544513006647, guid: 5c29fca4d1829d74c8149e47f6978235,
+      type: 3}
+    position: {x: 24.75, y: 0, z: 2.6}
+    yRotation: 180
+    scale: 10
+  - prefab: {fileID: 4414843863964572891, guid: 040ae70d5c7969a43a7de392c6a9b956,
+      type: 3}
+    position: {x: 24.75, y: 0.01, z: -3}
+    yRotation: 180
+    scale: 11
+  - prefab: {fileID: 1828553533823636012, guid: 2f80b576a92323141b1af9fd88106b4c,
+      type: 3}
+    position: {x: 29.2, y: 4.6, z: 3.7}
+    yRotation: 180
+    scale: 12
+  - prefab: {fileID: 4320196896449263802, guid: e7354d579d419e74e8666273f63a7dd9,
+      type: 3}
+    position: {x: 34.15, y: 0, z: 2.8}
+    yRotation: 180
+    scale: 10
+  - prefab: {fileID: 1116057304501967320, guid: 48ff92604c4cbba4da97373fafea525f,
+      type: 3}
+    position: {x: 38.100002, y: 1.8, z: 0.7}
+    yRotation: 180
+    scale: 6
+  - prefab: {fileID: 334569156917715922, guid: de151d25ee1633746bd7fc13798aa0e2, type: 3}
+    position: {x: 43.550003, y: 0, z: 2.75}
+    yRotation: 180
+    scale: 10
+  - prefab: {fileID: 3895689894335650834, guid: c8707c7b758b6b14c8ab381ade425023,
+      type: 3}
+    position: {x: 47.550003, y: 0, z: 2.6}
+    yRotation: 180
+    scale: 9

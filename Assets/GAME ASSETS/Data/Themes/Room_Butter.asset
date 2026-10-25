@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b01aeac469b0543b554f706c6b8c7a, type: 3}
+  m_Name: Room_Butter
+  m_EditorClassIdentifier: 
+  wallMaterial: {fileID: 2100000, guid: e06d3773b3aacd6489c96db3c39f8aca, type: 2}
+  floorMaterial: {fileID: 2100000, guid: 34c0f5e36b00660469e562d8c7e47d8c, type: 2}
+  fallbackPlatformMaterial: {fileID: 2100000, guid: 6b2b60d325058074c8ab501eda3cf02d,
+    type: 2}

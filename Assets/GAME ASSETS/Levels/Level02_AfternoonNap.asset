@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f00f52d00b99547980d93e2f0456a3, type: 3}
+  m_Name: Level02_AfternoonNap
+  m_EditorClassIdentifier: 
+  displayName: Afternoon Nap
+  description: Four pillow colors and a little less help. Plan one gap ahead!
+  difficulty: 2
+  roomTheme: {fileID: 11400000, guid: aa83e86ca7a0bb244adbcc27186ae22b, type: 2}
+  atmosphere: {fileID: 11400000, guid: 100920882018a9f4d8d20102a7822dbd, type: 2}
+  catWalkSpeed: 0.7
+  colors: 00000000010000000200000003000000
+  visibleQueueCount: 2
+  randomSeed: 0
+  startPlatform:
+    length: 5
+    furniture: {fileID: 4532068930989807466, guid: 48e72f2bee3be4f46bcdb830396654d3,
+      type: 3}
+    hueShift: 0
+  segments:
+  - prePlacedPillows:
+    - slot: 1
+      color: 0
+    platformAfterGap:
+      length: 4.5
+      furniture: {fileID: 8180459787196399639, guid: fe22164e25efd284eb86b57a032d9c50,
+        type: 3}
+      hueShift: 0.55
+  - prePlacedPillows:
+    - slot: 0
+      color: 2
+    - slot: 3
+      color: 1
+    platformAfterGap:
+      length: 5
+      furniture: {fileID: 5914605485070678643, guid: 3f22ef9c3a353ba4db0e2374df6e372d,
+        type: 3}
+      hueShift: -0.2
+  - prePlacedPillows:
+    - slot: 2
+      color: 3
+    platformAfterGap:
+      length: 4.5
+      furniture: {fileID: 4484947545465666163, guid: 440f261121b7d684aa8a225752c72d3e,
+        type: 3}
+      hueShift: 0.3
+  - prePlacedPillows:
+    - slot: 1
+      color: 1
+    platformAfterGap:
+      length: 5
+      furniture: {fileID: 5561601814122930026, guid: 343f12d4a49d97240b7972ec2aa3784d,
+        type: 3}
+      hueShift: 0.08
+  - prePlacedPillows:
+    - slot: 0
+      color: 0
+    - slot: 2
+      color: 2
+    platformAfterGap:
+      length: 4.5
+      furniture: {fileID: 5763087755312010830, guid: 662d8de8ed905be40afdc8b5ad85915b,
+        type: 3}
+      hueShift: -0.35
+  - prePlacedPillows:
+    - slot: 3
+      color: 3
+    platformAfterGap:
+      length: 5
+      furniture: {fileID: 203720986700967546, guid: 94b03d6e8f0a7a3469424b7f0ad68357,
+        type: 3}
+      hueShift: -0.4
+  - prePlacedPillows:
+    - slot: 2
+      color: 0
+    platformAfterGap:
+      length: 4.5
+      furniture: {fileID: 2365577610374805147, guid: cc83f18515fa6544992e7f050510c5e4,
+        type: 3}
+      hueShift: 0.15
+  - prePlacedPillows:
+    - slot: 0
+      color: 1
+    - slot: 1
+      color: 2
+    platformAfterGap:
+      length: 5.5
+      furniture: {fileID: 5914605485070678643, guid: 3f22ef9c3a353ba4db0e2374df6e372d,
+        type: 3}
+      hueShift: 0
+  decor:
+  - prefab: {fileID: 4226140136301090057, guid: 16f85e35943b5ea499e0203f749896d0,
+      type: 3}
+    position: {x: -2.5, y: 0, z: 2.8}
+    yRotation: 180
+    scale: 11
+  - prefab: {fileID: 334569156917715922, guid: de151d25ee1633746bd7fc13798aa0e2, type: 3}
+    position: {x: 2.5, y: 0, z: 2.75}
+    yRotation: 180
+    scale: 10
+  - prefab: {fileID: 2326842370440741754, guid: 3e5219dae887d304abbfd7ebf8546874,
+      type: 3}
+    position: {x: 8.45, y: 4.2, z: 3.7}
+    yRotation: 180
+    scale: 10
+  - prefab: {fileID: 2874803351628251934, guid: f5831f1b1619d5e46bb216da6a0372f0,
+      type: 3}
+    position: {x: 7.6499996, y: 1.8, z: 0.6}
+    yRotation: 180
+    scale: 10
+  - prefab: {fileID: 1828553533823636012, guid: 2f80b576a92323141b1af9fd88106b4c,
+      type: 3}
+    position: {x: 14.4, y: 4.6, z: 3.7}
+    yRotation: 180
+    scale: 12
+  - prefab: {fileID: 2741676030556807442, guid: 5ea36f3d277aec04e91627000369e5b4,
+      type: 3}
+    position: {x: 15.599999, y: 1.8, z: 0.7}
+    yRotation: 180
+    scale: 7
+  - prefab: {fileID: 4414843863964572891, guid: 040ae70d5c7969a43a7de392c6a9b956,
+      type: 3}
+    position: {x: 20.35, y: 0.01, z: -3}
+    yRotation: 180
+    scale: 11
+  - prefab: {fileID: 5058723974872529637, guid: 2d85ee961aae85346be51a0927ebbd9f,
+      type: 3}
+    position: {x: 20.35, y: 0, z: 2.6}
+    yRotation: 180
+    scale: 10
+  - prefab: {fileID: 715314133326906719, guid: 270cf3db118d2694b8b51a46d379ca91, type: 3}
+    position: {x: 26.300001, y: 4.2, z: 3.7}
+    yRotation: 180
+    scale: 13
+  - prefab: {fileID: 954265685362150947, guid: fbd16487fa9dfa94e92f0e189892d658, type: 3}
+    position: {x: 25.500002, y: 1.8, z: 0.6}
+    yRotation: 180
+    scale: 7
+  - prefab: {fileID: 1677539219903222026, guid: c7f39adc5c1e646448ce0285f2eb7879,
+      type: 3}
+    position: {x: 32.25, y: 0, z: 3.2}
+    yRotation: 180
+    scale: 8
+  - prefab: {fileID: 4320196896449263802, guid: e7354d579d419e74e8666273f63a7dd9,
+      type: 3}
+    position: {x: 38.2, y: 0, z: 2.8}
+    yRotation: 180
+    scale: 10
+  - prefab: {fileID: 5026206534487593101, guid: 850e6db3abefeae479a23d65547bb744,
+      type: 3}
+    position: {x: 44.65, y: 1.8, z: 0.7}
+    yRotation: 180
+    scale: 7
+  - prefab: {fileID: 5517800430992854469, guid: 931f05bc13f27dc4db77f7c17cf3824d,
+      type: 3}
+    position: {x: 44.15, y: 4.3, z: 3.7}
+    yRotation: 180
+    scale: 12
+  - prefab: {fileID: 3895689894335650834, guid: c8707c7b758b6b14c8ab381ade425023,
+      type: 3}
+    position: {x: 50.350002, y: 0, z: 2.6}
+    yRotation: 180
+    scale: 9
+  - prefab: {fileID: 6902676871047962594, guid: 5993a5c9451191748a98789d3171270a,
+      type: 3}
+    position: {x: 54.850002, y: 0, z: 2.8}
+    yRotation: 180
+    scale: 9
